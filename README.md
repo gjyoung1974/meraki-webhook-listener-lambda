@@ -23,7 +23,7 @@ This service will listen to meraki webhooks fired by a given repository.
 ```
 ┌───────────────┐               ┌───────────┐
 │               │               │           │
-│  meraki event │               │   meraki  │
+│  meraki event │               │   Meraki  │
 │   alert, etc. │────Trigger───▶│  Webhook  │
 │               │               │           │
 └───────────────┘               └───────────┘
@@ -42,7 +42,7 @@ This service will listen to meraki webhooks fired by a given repository.
          │ ┌────────────────┐  │
          │ │                │  │
          │ │     Lambda     │  │
-         │ │    Function    │  │
+         │ │    Function()  │  │
          │ │                │  │
          │ └────────────────┘  │
          └─────────────────────┘
@@ -51,8 +51,8 @@ This service will listen to meraki webhooks fired by a given repository.
                     ▼
          ┌────────────────────┐
          │                    │
-         │      CloudTrai     │
-         │                    │
+         │      CloudTrail    │
+         │          Etc.      │
          └────────────────────┘
 ```
 

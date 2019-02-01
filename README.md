@@ -70,6 +70,8 @@ This service will listen to meraki webhooks fired by a given repository.
 
 2. Deploy the service
 
+Using [Serverless](https://serverless.com/)    
+
   ```yaml
   serverless deploy
   ```

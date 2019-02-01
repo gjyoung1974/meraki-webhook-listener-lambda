@@ -1,0 +1,12 @@
+{
+  "name": "aws-meraki-webhook-listener",
+  "version": "1.0.0",
+  "description": "A Cisco Meraki event webhook listener",
+  "main": "handler.js",
+  "scripts": {
+    "deploy": "serverless deploy",
+    "logs": "serverless logs -f merakiWebhookListener -t"
+  },
+  "author": "Gordon Young",
+  "license": "MIT"
+}
